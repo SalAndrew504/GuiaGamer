@@ -1,11 +1,10 @@
-/* Reseteo de márgenes y padding */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos generales */
 .body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -16,7 +15,6 @@
     align-items: center;
 }
 
-/* Encabezado*/
 .header {
     background: #343434;
     color: white;
@@ -41,7 +39,14 @@
 .nav-link {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
+    padding: 5px 10px;
+}
+
+/* font-weight: bold; */
+
+.nav-link:hover {
+    background: #555;
+    border-radius: 10px;
 }
 
 /* Hero section */
