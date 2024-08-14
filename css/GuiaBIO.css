@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(211, 208, 208);
+}
+
+.header {
+    background: #343434;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.logo-img {
+    width: 150px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.titulo-principal {
+    margin-left: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav-link:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navegar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navegar a {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+.navegar :hover{
+   background-color: #4b4949;
+   color: white;
+   }  
+
+.Fondo-img{
+    width: 100%;
+    height: 400px;
+}
+
+.fondo-armas{
+    width: 100%;
+    height: 400px;
+}
+
+.plasma-img{
+    width: 100%;
+    height: 400px;
+}
+
+.maquina-img{
+    width: 100%;
+    height: 400px;
+}
+
+.big-img{
+    width: 100%;
+    height: 400px;
+}
+
+.side{
+    flex: 20%;
+    background-color: #f1f1f1;
+    padding: 5px;
+}
+
+.seccion{
+    flex: 80%;
+    background-color: white;
+    padding: 20px 20px;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+h1{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.footer {
+    background: #333;
+    color: #fff;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+}
+
+.footer-texto {
+    margin: 5px 0;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}

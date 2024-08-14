@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Guia Gamer</title>
+    <link rel="stylesheet" href="css/Diseño_Formulario.css">
+    <link rel="stylesheet" href="css/Notificacion.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1 class="titulo-principal">Guías Gamer</h1>
+        </div>
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Guías</a>
+            <a href="ADN.html" class="nav-link">Acerca De Nostros</a>
+        </nav>
+    </header>
+    
+    <section class="Registro">
+        <h4>Contáctanos<br></h4>
+        <p>Nombre</p>
+        <input class="control" type="text" name="nombre" id="nombre" placeholder=" ">
+        <p>Email</p>
+        <input class="control" type="email" name="email" id="email" placeholder=" ">
+        <p>Mensaje</p>
+        <textarea class="control2" name="mensaje" id="mensaje" placeholder=" "></textarea>
+        <input class="boton" type="submit" value="Enviar" onclick="enviarFormulario(event)">
+    </section>
+
+    <div id="notificacion" class="notificacion">
+        <p>¡Gracias por contactarnos! Tu mensaje ha sido enviado.</p>
+    </div>
+
+    <script src="js/Formulario.js"></script>
+
+    <footer class="footer">
+        <p class="footer-texto">Contacto: <a href="#" class="footer-link">info@guiasgamer.com</a></p>
+        <p class="footer-texto">&copy; 2024 Guías Gamer. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

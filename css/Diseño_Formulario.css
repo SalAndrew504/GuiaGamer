@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c1c1c1;
+    line-height: 1.5;
+}
+
+.header {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-principal {
+    color: #fff;
+    margin: 0;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav-link:hover {
+    background: #555;
+    border-radius: 10px;
+}
+
+.Registro {
+    max-width: 500px;
+    margin: 40px auto;
+    margin-top: 70px;
+    margin-block-end: 70px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Registro h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.control, .control2 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.control2 {
+    height: 120px;
+}
+
+.boton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.boton:hover {
+    background-color: #45a049;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-texto {
+    margin: 0;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}

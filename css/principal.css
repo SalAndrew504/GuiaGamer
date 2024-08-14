@@ -42,14 +42,12 @@
     padding: 5px 10px;
 }
 
-/* font-weight: bold; */
 
 .nav-link:hover {
     background: #555;
     border-radius: 10px;
 }
 
-/* Hero section */
 .hero {
     background: #555;
     color: #fff;
@@ -57,8 +55,6 @@
     text-align: center;
     width: 100%;
 }
-
-/* Contenido principal con Flexbox */
 .content {
     padding: 20px;
     max-width: 1200px;
@@ -74,36 +70,36 @@
     width: 100%;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex; /* Usamos flexbox para alinear la imagen y el texto en fila */
-    align-items: center; /* Alineamos verticalmente los elementos */
-    gap: 20px; /* Espacio entre la imagen y el texto */
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
 }
 
 .guia a {
-    text-decoration: none; /* Elimina la subrayado del enlace */
+    text-decoration: none;
     color: black;
-    display: block; /* Asegura que el enlace ocupe toda la imagen o texto */
+    display: block;
 }
 
 .guia-imagen {
-    width: 200px; /* Tamaño de la imagen */
+    width: 200px;
     height: auto;
     border-radius: 5px;
-    transition: transform 0.3s; /* Transición suave al hacer hover */
+    transition: transform 0.3s; 
 }
 
 .guia-imagen:hover {
-    transform: scale(1.05); /* Efecto de zoom cuando pasas el mouse sobre la imagen */
+    transform: scale(1.05); 
 }
 
 .guia-titulo {
     font-size: 1.5em;
     margin-top: 10px;
-    transition: color 0.3s ease; /* Transición suave al hacer hover */
+    transition: color 0.3s ease; 
 }
 
 .guia-enlace:hover .guia-titulo {
-    color: #007BFF; /* Cambia el color al hacer hover */
+    color: #007BFF; 
 }
 
 .guia-texto {
@@ -113,7 +109,6 @@
 }
 
 
-/* Pie de página con Flexbox */
 .footer {
     background: #333;
     color: #fff;
