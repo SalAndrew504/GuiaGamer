@@ -1,0 +1,170 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: #343434;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.logo-img {
+    height: 60px;
+    margin-left: 20px;
+}
+
+.titulo-principal {
+    margin: 10px;
+}
+
+/* Navigation styles */
+.nav {
+    margin-right: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav-link:hover {
+    background: #555;
+    border-radius: 10px;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    float: left;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.accordion {
+    background-color: #ddd;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.section-nav-list, .monster-nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section-nav-list li, .monster-nav-list li {
+    margin-bottom: 10px;
+}
+
+.section-nav-list a, .monster-nav-list a {
+    text-decoration: none;
+    color: #333;
+}
+
+.section-nav-list a:hover, .monster-nav-list a:hover {
+    color: #007bff;
+}
+
+/* Main content styles */
+.main-content {
+    margin-left: 270px; /* Make sure this matches the width of the sidebar */
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.guide-section {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.guide-description, .guide-item-content, .monster-strategy {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Image styles */
+.intro-img, .guide-img, .monster-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 10px;
+}
+
+/* Footer styles */
+.footer {
+    background: #333;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-texto {
+    margin: 5px 0;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+}
+
+
+/* Estilos para las imágenes de herramientas */
+.tools-images {
+    display: flex;
+    gap: 10px; /* Espacio entre las imágenes */
+    margin-top: 10px;
+}
+
+.tool-img {
+    width: 80px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción original */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra opcional para mejorar la visibilidad */
+}
